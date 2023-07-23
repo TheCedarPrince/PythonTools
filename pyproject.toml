@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pythontools"
+version = "0.1.0"
+description = "Python command line tools I need in my workflow"
+authors = ["TheCedarPrince <jacobszelko@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+conda-lock = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
